@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escola Paraná</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Escola Paraná</h1>
+            </div>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#cursos">Cursos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="banner">
+        <div class="banner-content">
+            <h2>Bem-vindo à Escola Paraná</h2>
+            <p>Educação de qualidade para transformar o futuro!</p>
+            <a href="#sobre" class="btn">Saiba Mais</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <h2>Sobre a Escola Paraná</h2>
+        <p>A Escola Paraná é referência em educação, oferecendo ensino de qualidade com foco no desenvolvimento completo do aluno. Nossa missão é preparar os alunos para os desafios do futuro.</p>
+    </section>
+
+    <section id="cursos" class="courses">
+        <h2>Nossos Cursos</h2>
+        <ul>
+            <li>Ensino Fundamental</li>
+            <li>Ensino Médio</li>
+            <li>Preparatório para Vestibulares</li>
+        </ul>
+    </section>
+
+    <section id="contato" class="contact">
+        <h2>Contato</h2>
+        <p>Telefone: (41) 99999-9999</p>
+        <p>Email: contato@escolaparana.com.br</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Escola Paraná. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
+Código CSS (styles.css):
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #008cba;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    background: url('banner-escola.jpg') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.banner-content h2 {
+    font-size: 3em;
+}
+
+.banner-content p {
+    font-size: 1.2em;
+}
+
+.btn {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.about, .courses, .contact {
+    padding: 50px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
